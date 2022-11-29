@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Primi passi operativi per creare un modello di pagina HTML per un post. Scopri
+    come iniziare in modo facile.", initial-scale=1.0" />
+    <title>Sviluppo di una pagina web-Blog Epicode</title>
+  </head>
+  <body>
+    <div>
+      <header>
+        <img src="logo.svg" alt="logo epicode" />
+        <h1>Epicode-Il blog dei developers</h1>
+      </header>
+    </div>
+    <nav>
+      <ul>
+        <li>Home</li>
+        <li>Articoli</li>
+        <li>Job</li>
+      </ul>
+    </nav>
+    <main>
+      <div>
+        <h2>Come creare un template per i post</h2>
+        <p>di Mario Rossi-pubblicato il 25-10-2020</p>
+      </div>
+      <div>
+        <p>
+          La prima cosa da fare è suddividire in blocchi logici la pagina, identificando le parti comuni da applicare a
+          tutte le pagine
+        </p>
+      </div>
+      <div>
+        <p>Le varie aree saranno quindi suddivise in:</p>
+        <ul>
+          <li>Contenuti di intestazione del tag <code>&lt;header&gt;</code></li>
+          <li>Contenuti centrali variabili del tag <code>&lt;main&gt;</code>(corpo principale)</li>
+          <li>Contenuti di fine pagina comuni, da inserire nel tag <code>&lt;footer&gt;</code></li>
+          <li>Formattazione del codice</li>
+        </ul>
+      </div>
+      <div>
+        <p>
+          Il testo dell'articolo dovrà essere formattato per identificare tutte le parti da selezionare con i css.
+          Perciò i passi saranno:
+        </p>
+        <ul>
+          <li>Progettare il markup assegnando ad ogni specifico testo il tag appropriato</li>
+          <li>scrivere l'html dai tag esterni a quelli interni e dall'alto verso il basso</li>
+          <li>Applicare gli stili css</li>
+          <li>l'applicazione di stili css è cresciuta negli anni fino a raggiungere la diffusione pressochè totale</li>
+        </ul>
+      </div>
+      <div>
+        <table>
+          <caption>
+            Diffusione dei css
+          </caption>
+          <tr>
+            <th>Anno</th>
+            <th>% di utilizzo</th>
+            <th>Supporto browsers</th>
+          </tr>
+          <tr>
+            <td>2000</td>
+            <td>20%</td>
+            <td>17%</td>
+          </tr>
+          <td>2002</td>
+          <td>35%</td>
+          <td>22%</td>
+          <tr>
+            <td>2004</td>
+            <td>45%</td>
+            <td>22%</td>
+          </tr>
+
+          <tr>
+            <td>2008</td>
+            <td>80%</td>
+            <td>51%</td>
+          </tr>
+          <tr>
+            <td>2012</td>
+            <td>100%</td>
+            <td>76%</td>
+          </tr>
+        </table>
+        <p>
+          Un test di validazione potrà essere fatto tramite il tool online <a href="#">-LINK ESTERNO-</a>dedicato allo
+          scopo. Una volta ottimizzato il tutto, avremo raggiunto il nostro obiettivo ed essere stati dei veri
+          developers come loro:
+        </p>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/XOaELeSrZzM"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <form method="POST" action="codice.php" autocomplete="on">
+        <fieldset>
+          <legend>Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla nostra newsletter:</legend>
+          <label for="email">Inserisci l'email</label>
+          <input type="email" name="email" id="email" />
+          <button type="submit" value="Invia i dati">Iscriviti!</button>
+        </fieldset>
+      </form>
+      <p>Articoli correlati<br />Validare il codice html<br />Cetegoria: Develop<br />Data:18-09-2020</p>
+      <p>Correggere la sintassi<br />Categoria: develop<br />Data: 16-9-2020</p>
+      <p>Meno kb nella pagina<br />Categoria: Ottimizzazione<br />Data: 30-09-2020</p>
+    </main>
+    <footer>
+      <center>
+        Blog Epicode 2021 ©<br />Testata online di Mario Rossi, registrata con prot.n.213/2018-via luigi einaudi
+        2-Milano. P:IVA 00112233.<br /><a href="#">info@epicode.school</a>
+      </center>
+    </footer>
+  </body>
+</html>
